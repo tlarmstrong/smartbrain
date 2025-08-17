@@ -1,0 +1,28 @@
+.face-box-container {
+  display: flex;
+  margin: 20px auto;
+}
+
+.face-box-wrapper {
+  display: flex;
+  position: relative;
+  margin: 0 auto;
+}
+
+.face-box-container span,
+.face-box-container img {
+  height: auto;
+}
+
+.face-box-container img {
+  max-width: 500px;
+}
+
+.bounding-box {
+  position: absolute;
+  box-shadow: 0 0 0 3px #149df2 inset;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  cursor: pointer;
+}

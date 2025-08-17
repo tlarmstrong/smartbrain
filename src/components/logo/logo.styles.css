@@ -1,0 +1,38 @@
+.logo-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+
+.logo-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-image-wrapper {
+  background: #cad3dc5c;
+  border-radius: 3px;
+  border: 1px solid #cbd0d4;
+  margin-bottom: 5px;
+}
+
+.app-description {
+  width: 80%;
+  /*margin-left: 10px;*/
+  padding: 20px;
+}
+
+.logo-image-wrapper img {
+  padding: 20px;
+}
+
+.attribution a,
+.attribution {
+  color: gray;
+  font-size: small;
+}
+
+.attribution a:hover {
+  color: #36393e;
+}

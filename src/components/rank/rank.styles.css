@@ -1,0 +1,22 @@
+.rank-container {
+  margin: 30px 0;
+}
+
+.rank-wrapper {
+  display: flex;
+  width: fit-content;
+  padding: 20px;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+}
+
+.intro-to-user {
+  font-weight: bold;
+}
+
+.user-rank {
+  /*margin-left: 5px;*/
+  font-weight: bold;
+  font-size: larger;
+}

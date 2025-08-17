@@ -1,0 +1,15 @@
+.navigation-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.signin-signout {
+  text-decoration: underline;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.signin-signout:hover {
+  color: #36393e;
+}
+
